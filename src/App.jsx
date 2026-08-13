@@ -8,6 +8,7 @@ import VetSpotlight from './components/VetSpotlight';
 import PetShop from './components/PetShop';
 import Testimonials from './components/Testimonials';
 import VisitPlanner from './components/VisitPlanner';
+import NeighborhoodExplorer from './components/NeighborhoodExplorer';
 import Footer from './components/Footer';
 import BookingModal from './components/BookingModal';
 import FloatingActions from './components/FloatingActions';
@@ -40,6 +41,7 @@ export default function App() {
         <PetShop />
         <Testimonials />
         <VisitPlanner />
+        <NeighborhoodExplorer onOpenBooking={() => handleOpenBooking()} />
       </main>
       <Footer />
       <FloatingActions />
